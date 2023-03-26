@@ -40,4 +40,13 @@
 }
 
 .banner-container .banner:hover img{
-  transform: scale(1);
+  transform: scale(1.6);
+}
+
+.banner-container .banner img{
+  width: 50%;
+  height: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
