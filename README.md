@@ -1,2 +1,2 @@
 # Algorithim-Visualiser
-MEOWWWWW
+MEOWW
