@@ -1,48 +1,40 @@
-# Algorithm Visualizer  
+# Algorithm Visualizer
 
-## Introduction  
-**Algorithm Visualizer** is a desktop application designed to help users learn and understand algorithms through interactive visualizations. It focuses on sorting and searching algorithms, offering users a step-by-step representation of how these algorithms work in real-time. This application is a great tool for students, educators, and enthusiasts looking to explore algorithmic concepts in a more engaging and intuitive way.  
+Algorithm Visualizer is a desktop application designed to help users learn and understand various algorithms through interactive visualizations. The application allows users to visualize the operation of different algorithms in real-time, promoting deeper comprehension of how these algorithms work.
 
-## Features  
-- User authentication with Firebase.  
-- Real-time visualization of sorting algorithms:  
-  - Bubble Sort  
-  - Selection Sort  
-  - Insertion Sort  
-  - Merge Sort  
-  - Quick Sort  
-- Visualization of searching algorithms:  
-  - Linear Search  
-  - Binary Search  
-- Customizable parameters such as dataset size and animation speed.  
-- Dynamic visual cues, including color coding, to enhance learning.  
+## Features
 
-## How It Works  
-1. **User Login**:  
-   Users start by logging into the application using Firebase authentication, which allows them to access saved settings or start fresh.  
-2. **Algorithm Selection**:  
-   After logging in, users select the desired algorithm to visualize.  
-3. **Parameter Configuration**:  
-   Users can adjust parameters like dataset size and animation speed for a personalized experience.  
-4. **Visualization**:  
-   The application visualizes the selected algorithm's steps in real-time, providing dynamic updates and visual cues for better understanding.  
+- **User Authentication**: Firebase integration for secure login and user management.
+- **Interactive Visualizations**: Step-by-step rendering of graph and search algorithms.
+  - Supported algorithms:
+    - A* Algorithm
+    - Dijkstra's Algorithm
+    - Greedy Best-First Search
+    - Breadth-First Search (BFS)
+    - Depth-First Search (DFS)
+- **Customizable Settings**: Adjust dataset size and animation speed for personalized visualizations.
+- **Real-time Updates**: Dynamic visual cues to enhance learning and understanding.
+- **Intuitive UI**: User interface built using Tkinter for a seamless experience.
 
-## Technical Architecture  
-- **Frontend**: Built using Python with Tkinter for the user interface and visualization canvas.  
-- **Backend**: Implements algorithm logic in Python to ensure accurate and efficient visualizations.  
-- **Database**: Firebase is used for user authentication and storing preferences.  
+## How to Use
 
-## System Requirements  
-- Python 3.8 or higher.  
-- Firebase account for authentication.  
-- Required Python libraries:  
-  - `tkinter`  
-  - `firebase-admin`  
-  - `matplotlib` (optional, for additional visual enhancements).  
+1. **Login**: Start by logging into the application using Firebase authentication.
+2. **Setup Parameters**: Configure the algorithm's parameters, such as dataset size and animation speed.
+3. **Select Algorithm**: Choose the algorithm you want to visualize.
+4. **Start Visualization**: Click the "Visualize" button to see the algorithm in action.
+5. **Reset Grid**: Click the "Clear" button to reset the grid and start over.
 
-## Installation  
-1. Clone the repository:  
-   ```bash  
-   git clone <repository-link>  
-   cd AlgorithmVisualizer  
+## Technologies Used
 
+- **Frontend**: Built using **Tkinter** for the user interface and visualization canvas.
+- **Backend**: Implements algorithm logic using **Python** for efficient visualizations.
+- **Authentication**: **Firebase** used for user authentication and storing preferences.
+- **Algorithms**: Real-time visualization of graph and search algorithms in Python.
+
+## Installation
+
+To run the Algorithm Visualizer locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/algorithm-visualizer.git
